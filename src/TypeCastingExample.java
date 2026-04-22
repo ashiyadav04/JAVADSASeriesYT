@@ -12,6 +12,7 @@ public class TypeCastingExample {
 //        byte b=a;
 
 
+        //but explicitly data loses
         //explicit type conversion is the solution for that
         //now do that
         int l=12;
@@ -21,5 +22,9 @@ public class TypeCastingExample {
         long value=1235667673;
         int num=(int )value;
         System.out.println("num="+num);
+        int c=10;
+        char d=(char)c;
+        System.out.println(d);
+        System.out.println("My name is ASHI yadav");
     }
 }
