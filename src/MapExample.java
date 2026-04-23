@@ -36,9 +36,9 @@ public class MapExample {
             TreeMap<Integer,String> m=new TreeMap<>();
             m.put(1,"ASHI YADAV");
             m.put(2,"Ujjwal yadav ");
-            m.put(3,"ASHI loves UJJWAL");
-            m.put(4,"UJJWAL loves ASHI");
-            m.put(5,"I'm UJJWAL's wife");
+            m.put(3,"RAJ KUMAR YADAV");
+            m.put(4,"UJJWAL ");
+            m.put(5,"AJAY YADAV ");
             System.out.println("Tree map enteries are:");
             for(Map.Entry<Integer,String>e: m.entrySet()) {
                 System.out.println(e.getKey() + " ->" + e.getValue());
